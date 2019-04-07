@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Potentiometer law modelling and identification for application in physical Virtual Analog circuits"
+title: "Potentiometer law modelling and identification for application in physics-based Virtual Analog circuits"
 ---
 
 ![](./images/dafx19_header.png)
 
-This is the companion webpage for the 22nd International Conference on Digital Audio Effects paper **"Potentiometer law modelling and identification for application in physical Virtual Analog circuits"** by Ben Holmes and Maarten van Walstijn.
+This is the companion webpage for the 22nd International Conference on Digital Audio Effects paper **"Potentiometer law modelling and identification for application in physics-based Virtual Analog circuits"** by Ben Holmes and Maarten van Walstijn.
 
 ## Contents
 
@@ -15,7 +15,9 @@ This is the companion webpage for the 22nd International Conference on Digital A
 
 MATLAB code for creating a linear-cubic piecewise function.
 
-#### 1.2. Modelling Alpha laws with a linear-cubic piecewise function
+#### 1.2. [Explicit solution to the cubic sub-function](./alpha-pots/cubic-subfunction)
+
+#### 1.3. Modelling Alpha laws with a linear-cubic piecewise function
 
 Plots and transitional values for the linear-cubic piecewise functions to model specified and measured characteristics from Alpha. [Download the measured potentiometer characteristics for both linear and logarithmic potentiometers here.](./alpha-pots/data/alpha_pots_csv.zip)
 
@@ -37,3 +39,9 @@ Measurement data collected from a breadboarded circuit of the Big Muff Pi tonest
 #### 2.2. [Multisine excitation signal](./big-muff-pi-tonestack/multisine-func)
 
 MATLAB code for generating the multisine excitation signal used in the measurement of the Big Muff Pi tonestack.
+
+### Bibliography extension
+
+[The latest potentiometer specification from the U.S.A. Department of Defense, MIL-R-94 G amendment 1, can be found here.](http://everyspec.com/MIL-PRF/MIL-PRF-000100-09999/MIL-PRF-94G_AMENDMENT-1_36619/)
+
+[My doctoral thesis as referenced in the paper can be found here.](./thesis.pdf) This document is subject to change.
