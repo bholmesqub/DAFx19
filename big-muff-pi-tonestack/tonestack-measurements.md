@@ -5,8 +5,6 @@ title: "Measurements of the Big Muff Pi tonestack"
 
 # Measurements of the Big Muff Pi tonestack
 
-The device measured wasn't taken from a Big Muff Pi, but was built on a breadboard from a schematic.
-
 ## Comparison between linear and logarithmic pots
 
 The below video illustrates the change in amplitude response to a change in potentiometer rotation. On the left are the measurements from the tone stack with a linear potentiometer, and on the right those from the tone stack with a logarithmic potentiometer.
@@ -17,6 +15,8 @@ At the extreme ends of rotation the difference is negligible. The most notable d
  <source src="../images/bmp_ts_pots.mp4" type="video/mp4">
  Your browser does not support the video tag.
 </video>
+
+The potentiometer was placed in the circuit such that when rotating it clockwise the bass would increase, and treble for counter-clockwise. This is counterintuitive so was flipper for the above video, but makes no difference to the results of the paper.
 
 ## Measurements
 
